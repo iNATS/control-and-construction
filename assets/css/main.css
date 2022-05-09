@@ -105,4 +105,23 @@ body {
       margin-top: 7rem;
     }
   }
+
+  .fade{
+    opacity: 0;
+    transition: opacity 0.9s;
+    background-color: #1f408349;
+    color: #fff;
+  }
+
+  .fade:hover{
+    opacity: 1;
+  }
   
+.text-hr{
+border: #fff 3px solid;
+opacity: 1 !important;
+}
+svg > #letter{
+fill: #1f4083;
+color: #1f4083;
+}

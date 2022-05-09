@@ -37,7 +37,7 @@
   --bs-danger: #e74c3c;
   --bs-light: #f8f9fa;
   --bs-dark: #343a40;
-  --bs-primary-rgb: 13, 110, 253;
+  --bs-primary-rgb: 31,65,131;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -59,9 +59,6 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
-
-
-
 
 *,
 *::before,
@@ -2314,7 +2311,7 @@ progress {
   background-color: #fff;
   border-color: #86b7fe;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(31,65,131, 0.25);
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -2554,7 +2551,7 @@ textarea.form-control-lg {
 .form-select:focus {
   border-color: #86b7fe;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(31,65,131, 0.25);
 }
 
 .form-select[multiple],
@@ -2632,7 +2629,7 @@ textarea.form-control-lg {
 .form-check-input:focus {
   border-color: #86b7fe;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(31,65,131, 0.25);
 }
 
 .form-check-input:checked {
@@ -2726,11 +2723,11 @@ textarea.form-control-lg {
 }
 
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(31,65,131, 0.25);
 }
 
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(31,65,131, 0.25);
 }
 
 .form-range::-moz-focus-outer {
@@ -3233,7 +3230,7 @@ textarea.form-control.is-invalid {
 .btn-check:focus+.btn,
 .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(31,65,131, 0.25);
 }
 
 .btn:disabled,
@@ -3616,7 +3613,7 @@ fieldset:disabled .btn {
 
 .btn-check:focus+.btn-outline-primary,
 .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(31,65,131, 0.5);
 }
 
 .btn-check:checked+.btn-outline-primary,
@@ -3634,7 +3631,7 @@ fieldset:disabled .btn {
 .btn-outline-primary:active:focus,
 .btn-outline-primary.active:focus,
 .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(31,65,131, 0.5);
 }
 
 .btn-outline-primary:disabled,
@@ -5373,7 +5370,7 @@ fieldset:disabled .btn {
   z-index: 3;
   border-color: #86b7fe;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(31,65,131, 0.25);
 }
 
 .accordion-header {
@@ -5499,7 +5496,7 @@ fieldset:disabled .btn {
   color: #0a58ca;
   background-color: #e9ecef;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(31,65,131, 0.25);
 }
 
 .page-item:not(:first-child) .page-link {
@@ -6176,7 +6173,7 @@ fieldset:disabled .btn {
 
 .btn-close:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(31,65,131, 0.25);
   opacity: 1;
 }
 

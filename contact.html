@@ -1,146 +1,111 @@
 <!doctype html>
 <html>
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/fontawesome/css/all.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/main.scss">
-    <!-- js -->
-    <script src="assets/js/include.js"></script>
-    <title> control and construction </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/fontawesome/css/all.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/main.scss">
+  <!-- js -->
+  <script src="assets/js/include.js"></script>
+  <title> control and construction </title>
 </head>
+
 <body>
-<!-- nav -->
-<include src="layout/nav.html"></include>
- 
-  <!-- start hero -->
-  <section class="hero pt-5">
-    <div class="container">
-      <!-- Hero Content-->
-      <div class="hero-content pb-5 text-center">
-        <h1 class="hero-heading">Contact</h1>
-        <div class="row">
-          <div class="col-xl-8 offset-xl-2">
-            <p class="lead text-muted">Are you curious about something? As am hastily invited settled at limited civilly
-              fortune me. Really spring in extent an by. Judge but built party world. Of so am he remember although
-              required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.</p>
+  <!-- nav -->
+  <include src="layout/nav.html"></include>
+
+
+  <div class="row">
+    <div class="col">
+      <div class=" card-cover text-light bg-dark p-5"
+        style="background-image: url('assets/img/contactUs.jpg'); background-size: cover; background-repeat: no-repeat; background-position: top;">
+        <div class="d-flex col-lg-5 flex-column h-100 p-5 text-white text-shadow-1">
+          <h1 class="pt-5 mt-5 mb-4 display-6 fw-bold">Contact Us</h1>
+          <h5>Are you curious about something? As am hastily invited settled at limited civilly
+            fortune me. Really spring in extent an by.</h5>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row text-primary">
+      <div class="container">
+        <div class="container col-xxl-12 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="assets/img/img2.jpg" class="shadow-lg d-block mx-lg-auto rounded img-fluid">
+            </div>
+            <div class="col-lg-6 hero-content ">
+              <h1 class="hero-heading">Get your offer</h1>
+              <p class="lead text-muted">Are you curious about something? As am hastily invited settled at limited
+                civilly
+                fortune me. Really spring in extent an by. Judge but built party world. Of so am he remember although
+                required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- end hero -->
 
 
-  <!-- start map -->
-  <div class="row" style="height:500px; width: 100%;">
-    <iframe id="gmap_canvas"
-      src="https://maps.google.com/maps?q=30.077864989044244,%2031.285157084639366&t=&z=13&ie=UTF8&iwloc=&output=embed"
-      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-  </div>
-  <!-- end map -->
+    <!-- start map -->
+      <iframe id="gmap_canvas"
+        src="https://maps.google.com/maps?q=30.077864989044244,%2031.285157084639366&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" height="500" marginheight="0" marginwidth="0" aria-hidden="false"></iframe>
 
-  <section class="py-6" style="background: #fafafa;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 text-center text-md-start">
-          <i class="fa-thin fa-envelope"></i>
-          <h4 class="ff-base">Address</h4>
-          <p class="text-muted">13/25 New Avenue<br>New Heaven, 45Y 73J<br>England, <strong>Great Britain</strong></p>
-        </div>
-        <div class="col-md-4 text-center text-md-start">
-          <svg class="svg-icon svg-icon-light text-primary w-3rem h-3rem mb-3">
-            <use xlink:href="#audio-call-1"> </use>
-          </svg>
-          <h4 class="ff-base">Call center</h4>
-          <p class="text-muted">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p class="text-muted"><strong>+33 555 444 333</strong></p>
-        </div>
-        <div class="col-md-4 text-center text-md-start">
-          <svg class="svg-icon svg-icon-light text-primary w-3rem h-3rem mb-3">
-            <use xlink:href="#mail-1"> </use>
-          </svg>
-          <h4 class="ff-base">Electronic support</h4>
-          <p class="text-muted">Please feel free to write an email to us or to use our electronic ticketing system.</p>
-          <ul class="list-unstyled text-muted">
-            <li>info@sell.com</li>
-            <li>support@sell.com</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="py-6">
-    <div class="container">
-      <header class="mb-5">
-        <h2 class="text-uppercase h5">Contact form</h2>
-      </header>
-      <div class="row">
-        <div class="col-md-7 mb-5 mb-md-0">
-          <form class="form" id="contact-form" method="post" action="contact.php">
-            <div class="controls">
-              <div class="row">
-                <div class="col-sm-6">
+    <div class="row p-5 bg-light ">
+      <section class="p-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 mb-5 mb-md-0">
+              <form class="form" id="contact-form" method="post" action="contact.php">
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="mb-4">
+                        <label class="form-label" for="name">Your firstname *</label>
+                        <input class="form-control" type="text" name="name" id="name" placeholder="Enter your firstname"
+                          required="required">
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="mb-4">
+                        <label class="form-label" for="surname">Your lastname *</label>
+                        <input class="form-control" type="text" name="surname" id="surname"
+                          placeholder="Enter your  lastname" required="required">
+                      </div>
+                    </div>
+                  </div>
                   <div class="mb-4">
-                    <label class="form-label" for="name">Your firstname *</label>
-                    <input class="form-control" type="text" name="name" id="name" placeholder="Enter your firstname"
+                    <label class="form-label" for="email">Your email *</label>
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Enter your  email"
                       required="required">
                   </div>
-                </div>
-                <div class="col-sm-6">
                   <div class="mb-4">
-                    <label class="form-label" for="surname">Your lastname *</label>
-                    <input class="form-control" type="text" name="surname" id="surname"
-                      placeholder="Enter your  lastname" required="required">
+                    <label class="form-label" for="message">Your message for us *</label>
+                    <textarea class="form-control" rows="4" name="message" id="message" placeholder="Enter your message"
+                      required="required"></textarea>
                   </div>
+                  <button class="btn btn-outline-primary" type="submit">Send message</button>
                 </div>
-              </div>
-              <div class="mb-4">
-                <label class="form-label" for="email">Your email *</label>
-                <input class="form-control" type="email" name="email" id="email" placeholder="Enter your  email"
-                  required="required">
-              </div>
-              <div class="mb-4">
-                <label class="form-label" for="message">Your message for us *</label>
-                <textarea class="form-control" rows="4" name="message" id="message" placeholder="Enter your message"
-                  required="required"></textarea>
-              </div>
-              <button class="btn btn-outline-dark" type="submit">Send message</button>
+              </form>
             </div>
-          </form>
-        </div>
-        <div class="col-md-5">
-          <p class="text-muted">Effects present letters inquiry no an removed or friends. Desire behind latter me though
-            in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am
-            cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if
-            aware their at. Chicken use are pressed removed. </p>
-          <p class="text-muted">Able an hope of body. Any nay shyness article matters own removal nothing his forming.
-            Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed
-            saw man led. Along on happy could cease green oh. </p>
-          <div class="social">
-            <ul class="list-inline">
-              <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-pinterest"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-vimeo"></i></a></li>
-            </ul>
           </div>
         </div>
-      </div>
+      </section>
     </div>
-  </section>
 
-  
-<!-- footer -->
-<include src="layout/footer.html"></include>
+    <!-- footer -->
+    <include src="layout/footer.html"></include>
 
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
