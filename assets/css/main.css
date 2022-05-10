@@ -108,8 +108,8 @@ body {
 
   .fade{
     opacity: 0;
-    transition: opacity 0.9s;
-    background-color: #1f408349;
+    transition: opacity 0.4s;
+    background-color: #1f4083e4;
     color: #fff;
   }
 
