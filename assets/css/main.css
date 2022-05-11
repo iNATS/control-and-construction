@@ -125,3 +125,21 @@ svg > #letter{
 fill: #1f4083;
 color: #1f4083;
 }
+
+.content-space-t-lg-5 {
+  padding-top: 12.5rem!important;
+}
+
+.g-3, .gx-3 {
+  --bs-gutter-x: 1rem;
+}
+
+.bg-img-start {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.d-md-block {
+  display: block!important;
+}
