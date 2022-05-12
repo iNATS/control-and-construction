@@ -175,3 +175,7 @@ svg>#letter {
 .text-gold{
   color: gold;
 }
+
+.text-justify{
+  text-align: justify;
+}
